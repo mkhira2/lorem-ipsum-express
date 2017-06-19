@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 var loremIpsum = require('lorem-ipsum')
-var output     = loremIpsum({count: 3, units: 'paragraphs', suffix: '<br />'})
+var output = loremIpsum({count: 3, units: 'paragraphs', suffix: '<br />'})
 
 function addLorem() {
   return output
